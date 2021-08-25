@@ -15,13 +15,13 @@ programa
 		escreva("Digite o indice de poluição: ")
 		leia(poluicao)
 		se(poluicao >= 0.3 e poluicao < 0.4){
-			escreva("\n Suspender atividades das empresas que pertencem ao grupo 1")
+			escreva("\nSuspender atividades das empresas que pertencem ao grupo 1")
 		}
 		senao se (poluicao >= 0.4 e poluicao < 0.5){
-			escreva ("\n Suspender atividades das empresas que pertencem aos grupos 1 e 2 ")
+			escreva ("\nSuspender atividades das empresas que pertencem aos grupos 1 e 2 ")
 		}
 		senao se (poluicao >=0.5){
-			escreva("\n Suspender atividades das empresas que pertencem aos grupos 1, 2 e 3") 
+			escreva("\nSuspender atividades das empresas que pertencem aos grupos 1, 2 e 3") 
 		}
 		senao{
 			escreva ("Indice menor que 0,3 todas as empresas podem continuar")
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1124; 
+ * @POSICAO-CURSOR = 805; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

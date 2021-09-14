@@ -242,6 +242,28 @@ public class Produto {
 		carrinho();
 
 	}
+	public void compraNova() {
+		cabecalho();
+		String tituloMatriz[] = { "COD \t |", "PRODUTO \t\t |", "VALOR \t |", "ESTOQUE" };
+		System.out.print(tituloMatriz[0]);
+		System.out.print(tituloMatriz[1]);
+		System.out.print(tituloMatriz[2]);
+		System.out.print(tituloMatriz[3]);
+		System.out.print("\n");
+
+		for (int l = 1; l <= 10; l++) {
+			codigo[l] = "G6-" + l;
+			System.out.print(codigo[l] + "\t | ");
+			System.out.print(produto[l] + "\t | ");
+			System.out.print(valor[l] + "\t | ");
+			System.out.print(estoque[l]);
+			System.out.print("\n");
+		}
+
+	
+
+	}
+
 
 	public void carrinho() {
 

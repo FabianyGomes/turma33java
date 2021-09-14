@@ -93,7 +93,28 @@ public class TelaInicial {
 					break;
 
 				}
+
 			}
+			while (fazerCompra == true) {
+				
+
+				System.out.print("\n\nCONTINUAR COMPRA? [S/N]: ");
+
+				op = scan.next().charAt(0);
+				if (op == 's' || op == 'S') {
+
+					for (int L = 0; L < 50; L++) {
+
+						System.out.println("\n");
+					}
+					p1.compraNova();
+					p1.selecionaProduto();
+					break;
+					
+		}
+
+	}
 		}
 	}
 }
+	

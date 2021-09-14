@@ -15,6 +15,15 @@ public class ContaPoupanca extends Conta {
 	public void diaAniversarioPoupanca (int diaAniversarioPoupanca) {
 		this.diaAniversarioPoupanca = diaAniversarioPoupanca;
 	}
+	public void correcao(int diaInformado) {
 
+		double valorCorrecao;
+		if (diaInformado == this.diaAniversarioPoupanca) 
+		{
 
+			valorCorrecao = (super.getSaldo() * 0.005);
+			super.credito(valorCorrecao);
+		}
+
+	}
 }

@@ -33,12 +33,18 @@ insert into tb_categoria (tipo, tamanho) values ("Doce", "Grande");
 insert into tb_categoria (tipo, tamanho) values ("Doce", "Média");
 insert into tb_categoria (tipo, tamanho) values ("Doce", "Broto");
 
-insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) values ("Frango","Cheddar","Bacon", 50, 1);
-insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) values ("Atum","Normal","Ovo", 50, 2);
-insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) values ("Portuguesa","Presunto","Bacon", 60, 1);
-insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) values ("Chocolate","Chocolate","Normal", 90, 4);
-insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) values ("Ouro Branco","Chocolate","Doce de leite", 90, 5);
-insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) values ("Prestigio","Jujubas","Chocolate", 40, 6);
+insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) 
+	values ("Frango","Catupiry","Cebola", 55, 1);
+insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) 
+	values ("Atum","Sem borda","Cebola", 45, 2);
+insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) 
+	values ("Portuguesa","Catupiry","Bacon", 65, 1);
+insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) 
+	values ("Chocolate","Chocolate","Sem adicional", 50, 4);
+insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) 
+	values ("Morango","Chocolate"," Chocolate", 65, 5);
+insert into tb_pizza (sabor, borda, adicional, preco, fk_id_categoria) 
+	values ("Prestigio","Chocolate","Sem adicional", 40, 6);
 
 select * from tb_pizza where preco > 45;
 select * from tb_pizza where preco between 29 and 60;

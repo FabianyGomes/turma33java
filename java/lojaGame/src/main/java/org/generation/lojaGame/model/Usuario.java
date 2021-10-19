@@ -106,4 +106,10 @@ public class Usuario {
 	public void setPostagem(List<Produto> produto) {
 		this.produto = produto;
 	}
+
+	public void setProduto(List<Produto> produto) {
+		this.produto = produto;
+	}
+	
+	
 }

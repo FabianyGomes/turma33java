@@ -1,4 +1,7 @@
 package org.generation.lojaGame.model;
+
+
+
 import java.util.List;
 
 import javax.persistence.CascadeType;
